@@ -1,0 +1,95 @@
+body{
+    font-family: 'Times New Roman', Times, serif;   
+    background-color: #ffffff;
+    color: snow;
+}
+
+.container{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: xx-large;
+    color: #326789;
+}
+
+.mainFrame{
+    /* background-color: lightcoral; */
+    text-align: center;
+
+}
+.mainFrame #wlcm-mess #top{
+    font-size: x-large;
+    margin-right: 1.5rem;
+
+}
+
+.mainFrame #ioField{
+    height: 2rem;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+    margin-right: 0.4rem;
+    margin-left: 0.4rem;
+    box-shadow: 0px 0px 1px #262626;
+}
+
+.mainFrame #addBtn{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: none;
+    background-color: snow;
+    box-shadow: 0px 0px 1px #262626;
+
+}
+.mainFrame #top{
+    color: #78a6cb;
+}
+
+.mainFrame #textarea{
+    margin-right: 1.5rem;
+}
+
+.deleteBtn button{
+    margin-right: 2.5rem;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+    color: #e65c4f;
+    box-shadow: 0px 0px 1px #262626;
+    margin-bottom: 2.5rem;
+}
+
+
+.mainFrame .individualItem{
+    background-color: #ffffff;
+    text-align: center;
+    /* width: 100%; */
+    border: 1px solid #326789;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0.5rem;
+    color: #e65c4f;
+    width: 15rem;
+    height: auto;
+    text-overflow: clip;
+
+
+}
+.mainFrame .listContent{
+    margin-right: 3rem;
+}
+
+.mainFrame .individualItem button h3{
+    width: 15rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+#dltBtn{
+    border: none;
+    background-color: #ffffff;
+}
